@@ -89,16 +89,6 @@ print(outputs.predicted_class_names)
 
 ---
 
-## 🔍 Applications
-SPIDER datasets and models can be used for:
-- **Patch-level pathology classification**
-- **Whole Slide Image (WSI) segmentation**
-- **Tissue morphology quantification**
-- **Multi-modal AI research** (e.g., vision-language models)
-- **Explainable AI tools for pathology workflows**
-
----
-
 ## 🔗 More Information
 - [Hugging Face Profile](https://huggingface.co/histai)
 - [GitHub Repository](https://github.com/HistAI/SPIDER)
