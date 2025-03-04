@@ -83,7 +83,7 @@ print(outputs.predicted_class_names)
 ## 📈 Benchmark Results
 | Organ        | Accuracy | Precision | F1 Score |
 |-------------|----------|------------|----------|
-| **Skin**      | -        | -          | -        |
+| **Skin**      | 0.940        | 0.935          | 0.937        |
 | **Colorectal** | 0.914    | 0.917      | 0.915    |
 | **Thorax**    | 0.962    | 0.958      | 0.960    |
 
