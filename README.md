@@ -11,7 +11,7 @@ This repository serves as a central hub for accessing the SPIDER datasets, pre-t
 For a detailed description of SPIDER, methodology, and benchmark results, refer to our research paper:
 
 📄 **SPIDER: A Comprehensive Multi-Organ Supervised Pathology Dataset and Baseline Models**  
-[View on arXiv](https://arxiv.org/)
+[View on arXiv](https://arxiv.org/abs/2503.02876)
 
 ---
 
@@ -109,5 +109,13 @@ This project is licensed under **CC BY-NC 4.0**. The dataset and models are avai
 ## 📖 Citation
 If you use SPIDER in your research, please cite:
 ```bibtex
-# To be added
+@misc{nechaev2025spidercomprehensivemultiorgansupervised,
+      title={SPIDER: A Comprehensive Multi-Organ Supervised Pathology Dataset and Baseline Models}, 
+      author={Dmitry Nechaev and Alexey Pchelnikov and Ekaterina Ivanova},
+      year={2025},
+      eprint={2503.02876},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV},
+      url={https://arxiv.org/abs/2503.02876}, 
+}
 ```
