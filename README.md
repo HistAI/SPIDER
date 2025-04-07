@@ -18,10 +18,11 @@ For a detailed description of SPIDER, methodology, and benchmark results, refer 
 ## Resources
 
 ### 📂 Datasets
-SPIDER consists of three organ-specific datasets. Available for download from [Hugging Face Hub](https://huggingface.co/histai) 🤗:
+SPIDER consists of four organ-specific datasets. Available for download from [Hugging Face Hub](https://huggingface.co/histai) 🤗:
 - [SPIDER-Skin](https://huggingface.co/datasets/histai/SPIDER-skin)
 - [SPIDER-Colorectal](https://huggingface.co/datasets/histai/SPIDER-colorectal)
 - [SPIDER-Thorax](https://huggingface.co/datasets/histai/SPIDER-thorax)
+- [SPIDER-Breast](https://huggingface.co/datasets/histai/SPIDER-breast)
 
 Each dataset contains:
 - **224×224 central patches** with expert-verified class labels
@@ -36,6 +37,7 @@ Baseline models trained on the SPIDER datasets using the **Hibou-L** foundation 
 - [SPIDER-Skin Model](https://huggingface.co/histai/SPIDER-skin-model)
 - [SPIDER-Colorectal Model](https://huggingface.co/histai/SPIDER-colorectal-model)
 - [SPIDER-Thorax Model](https://huggingface.co/histai/SPIDER-thorax-model)
+- [SPIDER-Breast Model](https://huggingface.co/histai/SPIDER-breast-model)
 
 Each model supports:
 - Patch-level classification with multi-class labels
@@ -86,6 +88,7 @@ print(outputs.predicted_class_names)
 | **Skin**      | 0.940        | 0.935          | 0.937        |
 | **Colorectal** | 0.914    | 0.917      | 0.915    |
 | **Thorax**    | 0.962    | 0.958      | 0.960    |
+| **Breast**  | 0.902    | 0.896      | 0.897    |
 
 ---
 
